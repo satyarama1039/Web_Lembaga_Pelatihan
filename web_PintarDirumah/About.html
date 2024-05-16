@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<head>
+    <title>Tentang Pintar Dirumah</title>
+    <style>
+        body {
+            background-color: #FDF7E4;
+        }
+        a:hover {
+            color: red;
+        }
+        @font-face {
+            font-family: 'FontUtama';
+            src: url('/Users/satyarama/Desktop/LuarSekolah/MadimiOne-Regular.ttf') format('truetype');
+        }
+        @font-face {
+            font-family: 'FontKedua';
+            src: url('/Users/satyarama/Desktop/LuarSekolah/Gontserrat-Regular.ttf') format('truetype');
+        }
+        p {
+            font-family: 'FontKedua', sans-serif;
+            margin-left: 20px;
+            flex: 1;
+            font-size: x-large;
+        }
+        img {
+            height: 350px;
+            width: auto;
+        }
+        h1 {
+            font-family: 'FontUtama', sans-serif;
+            text-align: center;
+            font-size: 25px;
+            margin-top: 30px;
+        }
+        header {
+            position: fixed;
+            border-radius: 10px;
+            background-color: #FDF7E4;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 40px;
+            position: fixed;
+            top: 0; 
+            left: 0;
+            right: 0; 
+            z-index: 1000;
+            padding: 10px 20px;
+        }
+        .custom_header {
+            padding: 10px;
+            padding-bottom: 20px;
+        }
+        .user_option {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 0px;
+            margin-right: 50px;
+            margin-top: 20px;
+        }
+        .login_option {
+            border-radius: 5px;
+            background: #FDF7E4;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px; 
+            transition: background-color 0.3s; 
+        }
+        .login_option:hover {
+            background: #BBAB8C; 
+        }
+        .login_option a {
+            color: #BBAB8C;
+            text-decoration: none;
+        }
+        
+        .login_option:hover a {
+            color: #FDF7E4; 
+        }
+        nav {
+            margin-right: 40%;
+            margin-top: 20px;
+        }
+        nav a {
+            background-color: #FDF7E4;
+            margin-right: 30px;
+            font-size: 18px;
+            border-radius: 5px;
+            text-align: center;
+            width: 100px;
+            height: 50px;
+            line-height: 50px;
+            display: inline-block;
+            color: white; 
+            text-decoration: none; 
+            transition: background-color 0.3s; 
+        }
+        nav a:hover {
+            background:#BBAB8C; 
+            color:  #FDF7E4;
+        }
+        nav a {
+            color: #BBAB8C;
+            text-decoration: none;
+        }
+        
+        nav a:hover a {
+            color: #FDF7E4; 
+        }
+
+        .konten_about {
+            display: flex;
+            padding: 20px; 
+            max-width: 900px; 
+            margin-top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        .konten_isi {
+            text-indent: 50px;
+            display: flex;
+            padding: 20px; 
+            max-width: 900px; 
+            margin-left: auto;
+            margin-right: auto;
+            text-align: justify;
+            line-height: 1.5;
+        }
+        .judul_about {
+            margin-top: 10px;
+            font-family: 'FontUtama', sans-serif;
+            font-size: 60px;
+            text-indent: 0px;
+        }
+        .logo {
+            width: 8%;
+            height: auto;
+            margin-left: 30px;
+            margin-top: 20px;
+            margin-right: 10px;
+        }
+        .tombol_program {
+            border-radius: 5px;
+            background: white;
+            text-align: center;
+            width: 850px;
+            height: 50px;
+            line-height: 50px; 
+            transition: background-color 0.3s;
+            margin: auto;
+            margin-bottom: 100px;
+        }
+        .tombol_program:hover {
+            background: #BBAB8C; 
+        }
+        .tombol_program a {
+            color: #BBAB8C;
+            text-decoration: none;
+        }
+        
+        .tombol_program:hover a {
+            color: #FDF7E4; 
+        }
+        .sub_judul {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 10px;
+        }
+        
+        
+    </style>
+    </head>
+    <body>
+        <header class="custom_header">
+            <img class="logo" src="logo.png" alt="pintardirumah">
+            <nav>
+                <a href="page layout.html">Home</a> 
+                <a href="About.html">About</a> 
+                <a href="contact.html">Contact</a>
+            </nav>
+            <div class="user_option">
+                <div class="login_option">
+                    <a href="form_login.php">Login</a>
+                </div>
+                <div class="login_option">
+                    <a href="input_registrasi.php">Register</a>
+                </div>
+            </div>
+        </header>
+        <div class="konten_about">
+            <p class="judul_about">
+                Apasih itu <br> Pintar Dirumah? 
+            </p>
+            <img src="about_study.png" alt="foto1">
+        </div>
+        <div class="konten_isi">
+            <p>Pintar Dirumah merupakan lembaga pendidikan yang menyediakan pengalaman belajar online eksklusif dari kenyamanan rumah Anda. Dengan kurikulum yang terstruktur dan fleksibel, siswa dapat menjelajahi berbagai mata pelajaran sesuai minat mereka, mulai dari science. mathematics, english hingga computer science. <br> <br> Dukungan dari instruktur ahli dan platform pembelajaran interaktif memastikan pengalaman belajar yang mendalam dan menarik bagi setiap siswa.
+            </p>
+        </div>
+        </div>
+        <div class="tombol_program">
+            <a href="page layout.html#pilihan_program">Lihat Program</a>
+        </div>
+</body>
+</html>
